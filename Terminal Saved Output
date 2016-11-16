@@ -1,0 +1,173 @@
+Last login: Mon Nov 14 19:24:23 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.1
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+node v7.1.0
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+stephenmacbook ~
+$ cd ~/Desktop/
+stephenmacbook ~/Desktop
+$ li
+-bash: li: command not found
+stephenmacbook ~/Desktop
+$ ls
+TomorrowNight.terminal	WDI/  cli_practice/  index.html
+stephenmacbook ~/Desktop
+$ cd WDI
+stephenmacbook ~/Desktop/WDI
+$ ls
+homework/
+stephenmacbook ~/Desktop/WDI
+$ cd homework
+stephenmacbook ~/Desktop/WDI/homework
+$ ls
+cli_golf-master/
+stephenmacbook ~/Desktop/WDI/homework
+$ cd cli_golf-master/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master
+$ ls
+LICENSE.txt*  README.md*  kitchen/  kitchen.zip*
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master
+$ cd kitchen/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ mv cans.txt fridge/
+'cans.txt' -> 'fridge/cans.txt'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd freezer
+-bash: cd: freezer: No such file or directory
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd fridge
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ cd freezer
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/freezer
+$ rm couch.txt
+removed 'couch.txt'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/freezer
+$ cd ../
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ ls
+cans.txt  diapers.txt  freezer/  milk.txt  trashcan/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ mv trashcan kitchen/
+'trashcan' -> 'kitchen/'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ cd ../
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd fridge
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ ls
+cans.txt  diapers.txt  freezer/  kitchen/  milk.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ mv kitchen trashcan/
+'kitchen' -> 'trashcan/'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ ls
+cans.txt  diapers.txt  freezer/  milk.txt  trashcan/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ mv ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/trashcan/ ~/Desktop/WDI/homework/cli_golf-master/kitchen/
+'/Users/stephenmacbook/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/trashcan/' -> '/Users/stephenmacbook/Desktop/WDI/homework/cli_golf-master/kitchen/trashcan'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ ls
+cans.txt  diapers.txt  freezer/  milk.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ mv cans.txt ~/Desktop/WDI/homework/cli_golf-master/kitchen/pantry/
+'cans.txt' -> '/Users/stephenmacbook/Desktop/WDI/homework/cli_golf-master/kitchen/pantry/cans.txt'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ cd ../
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd trashcan
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/trashcan
+$ mv sink ~/Desktop/WDI/homework/cli_golf-master/kitchen/
+'sink' -> '/Users/stephenmacbook/Desktop/WDI/homework/cli_golf-master/kitchen/sink'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/trashcan
+$ cd ../
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd fridge
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ rm diapers.txt
+removed 'diapers.txt'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ cd ../
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd pantry
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/pantry
+$ mv crisper-drawer ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/
+'crisper-drawer' -> '/Users/stephenmacbook/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/crisper-drawer'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/pantry
+$ cd ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge
+$ cd crisper-drawer
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/crisper-drawer
+$ touch lettuce.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/crisper-drawer
+$ cd pantry
+-bash: cd: pantry: No such file or directory
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/fridge/crisper-drawer
+$ cd ~/Desktop/WDI/homework/cli_golf-master/kitchen/pantry/
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/pantry
+$ cd ../
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd sink
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink
+$ rm delete-me.txt
+removed 'delete-me.txt'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink
+$ mv clean-dishes ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink/drying-rack/
+gmv: cannot stat 'clean-dishes': No such file or directory
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink
+$ mv clean-dishes.txt ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink/drying-rack/
+'clean-dishes.txt' -> '/Users/stephenmacbook/Desktop/WDI/homework/cli_golf-master/kitchen/sink/drying-rack/clean-dishes.txt'
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/sink
+$ cd ../
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen
+$ cd trashcan
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+stephenmacbook ~/Desktop/WDI/homework/cli_golf-master/kitchen/trashcan
+$ 
